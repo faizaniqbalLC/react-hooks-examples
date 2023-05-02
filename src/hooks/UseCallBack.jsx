@@ -17,9 +17,12 @@ const UseCallBack = () => {
 
   const sum = useCallback(() => num1 + num2, [num1, num2]);
 
+  const buildArray = useCallback(() => [num1, num2], [num1, num2]);
+
   useEffect(() => {
     console.log("useCallback-sum", sum());
-  }, [sum]);
+    console.log("useCallback-buildArray", buildArray());
+  }, [sum, buildArray]);
 
   return (
     <>
