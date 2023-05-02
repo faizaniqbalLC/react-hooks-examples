@@ -2,6 +2,7 @@ import { useCallback, useEffect, useState } from "react";
 
 const UseCallBack = () => {
   const [state, setState] = useState("");
+  const [, setResult] = useState();
   const [num1] = useState(5);
   const [num2] = useState(5);
 
@@ -22,6 +23,7 @@ const UseCallBack = () => {
   useEffect(() => {
     console.log("useCallback-sum", sum());
     console.log("useCallback-buildArray", buildArray());
+    setResult(buildArray());
   }, [sum, buildArray]);
 
   return (
