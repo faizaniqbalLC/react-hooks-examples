@@ -2,7 +2,21 @@
 
 useCallback , useMemo, useEffect vs useLayoutEffect, useTransitionAnduseDeferredValue, useRef, useImeprativeHandle, also a custom by using useDebugvalue have explained in that repo by code examplrs
 
-**react-hooks-examples**
+---
+
+🚀 Follow Me:
+
+- [Twitter](https://twitter.com/se_fizan)
+- [LinkedIn](https://www.linkedin.com/in/muhammad-fizan-iqbal/)
+- [Reddit](https://www.reddit.com/user/se-fizan)
+
+---
+
+### 🎓 Academic Honesty
+
+**DO NOT COPY FOR AN ASSIGNMENT** - Avoid plagiarism and adhere to the spirit of this [Academic Honesty Policy](https://www.freecodecamp.org/news/academic-honesty-policy/).
+
+---
 
 
 **Getting Started with react-hooks-examples.**
