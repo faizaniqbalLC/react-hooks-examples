@@ -12,6 +12,9 @@ import UseTransition from "./hooks/UseTransition";
 function App() {
   return (
     <main className="App">
+    <h1>React Hooks Expalined</h1>
+    <h2> See console for log messages</h2>
+    <br/><br/>
       {/* example code  for useCallback */}
       <h3>useCallback Example</h3>
       <UseCallBack />
