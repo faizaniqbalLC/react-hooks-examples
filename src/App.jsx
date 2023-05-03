@@ -1,9 +1,13 @@
 import "./App.css";
 import UseCallBack from "./hooks/UseCallBack";
+import UseDebugValue from "./hooks/UseDebugValue";
 import UseEffectVSUseLayoutEffect from "./hooks/UseEffectVSUseLayoutEffect";
+import UseImperativeHandle from "./hooks/UseImperativeHandle";
 import UseMemo from "./hooks/UseMemo";
 import UseReducer from "./hooks/UseReducer";
 import UseRef from "./hooks/UseRef";
+import UseTransAndUseDeffSearchExamp from "./hooks/UseTransAndUseDeffSearchExamp";
+import UseTransition from "./hooks/UseTransition";
 
 function App() {
   return (
@@ -24,6 +28,17 @@ function App() {
       <br />
       <h3>useEffect vs useLayoutEffect Example</h3>
       <UseEffectVSUseLayoutEffect />
+      <br />
+      <br />
+      <h3>useImperativeHandle Example</h3>
+      <UseImperativeHandle />
+      <br />
+      <br />
+      <h3>useDebugValue Example</h3>
+      <UseDebugValue />
+      <h3>useTransition Example</h3>
+      <UseTransition />
+      <UseTransAndUseDeffSearchExamp />
     </main>
   );
 }
