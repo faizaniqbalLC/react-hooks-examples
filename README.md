@@ -21,7 +21,7 @@ useCallback , useMemo, useEffect vs useLayoutEffect, useTransitionAnduseDeferred
 
 **Getting Started with react-hooks-examples.**
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
