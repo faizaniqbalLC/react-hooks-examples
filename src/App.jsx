@@ -9,7 +9,7 @@ import UseRef from "./hooks/UseRef";
 import UseTransAndUseDeffSearchExamp from "./hooks/UseTransAndUseDeffSearchExamp";
 import UseTransition from "./hooks/UseTransition";
 
-function App() {
+const  App = () => {
   return (
     <main className="App">
     <h1>React Hooks Explained</h1>
